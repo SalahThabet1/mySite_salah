@@ -19,6 +19,15 @@ const config: QuartzConfig = {
     baseUrl: "salaheldinthabet.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
+    // Layer configuration: control visibility and stacking order (higher z-index = on top)
+    // grain: foreground noise texture
+    // plum: organic tree branches animation
+    // shutters: dappled light effect with blinds
+    layers: {
+      grain: { enabled: true, zIndex: 9999 },      // Top layer
+      plum: { enabled: true, zIndex: 1 },          // Middle layer
+      shutters: { enabled: true, zIndex: 0 },      // Bottom layer
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

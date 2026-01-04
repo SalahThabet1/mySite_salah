@@ -69,6 +69,12 @@ export interface GlobalConfiguration {
   ignorePatterns: string[]
   /** Whether to use created, modified, or published as the default type of date */
   defaultDateType: ValidDateType
+  /** Layer configuration for visual effects (grain, plum, shutters) */
+  layers?: {
+    grain?: { enabled: boolean; zIndex: number }
+    plum?: { enabled: boolean; zIndex: number }
+    shutters?: { enabled: boolean; zIndex: number }
+  }
   /** Base URL to use for CNAME files, sitemaps, and RSS feeds that require an absolute URL.
    *   Quartz will avoid using this as much as possible and use relative URLs most of the time
    */
