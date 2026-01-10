@@ -1,0 +1,47 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Home"
+pageRef = "/"
+identifier = "hDeGuKCIkC"
+weight = 1
+
+[[main]]
+name = "Blog"
+pageRef = "Blog"
+identifier = "DcHaOaNMRf"
+weight = 2
+
+[[main]]
+name = "Toolkit"
+pageRef = "Toolkit"
+identifier = "wXaVUWl0Rr"
+weight = 3
+
+[[main]]
+name = "About me"
+pageRef = "Aboutme"
+identifier = "neoszPJZt9"
+weight = 4
+
+[[main]]
+pre = "instagram"
+url = "https://www.instagram.com/salah.thabet/"
+identifier = "1HugL1EKOn"
+weight = 102
+
+[[main]]
+pre = "github"
+url = "https://github.com/SalahThabet1"
+identifier = "9jogDN9rIu"
+weight = 100
+
+[[main]]
+pre = "youtube"
+url = "https://www.youtube.com/@salahdinthabet5684"
+identifier = "NUblm9xRxS"
+weight = 100
+
+[[footer]]
+none = "none"
