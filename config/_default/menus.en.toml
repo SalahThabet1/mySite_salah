@@ -1,47 +1,61 @@
-[[main]]
-none = "none"
-
+# Main Navigation Menu
 [[main]]
 name = "Home"
 pageRef = "/"
-identifier = "hDeGuKCIkC"
-weight = 1
+identifier = "home"
+weight = 10
 
 [[main]]
 name = "Blog"
 pageRef = "Blog"
-identifier = "DcHaOaNMRf"
-weight = 2
+identifier = "blog"
+weight = 20
 
 [[main]]
 name = "Toolkit"
 pageRef = "Toolkit"
-identifier = "wXaVUWl0Rr"
-weight = 3
+identifier = "toolkit"
+weight = 30
+
+# About Section with Submenus
+[[main]]
+name = "About"
+identifier = "about"
+weight = 40
 
 [[main]]
-name = "About me"
+name = "About Me"
 pageRef = "Aboutme"
-identifier = "neoszPJZt9"
-weight = 4
+parent = "about"
+identifier = "about-me"
+weight = 41
+
+[[main]]
+name = "Interests"
+pageRef = "interests"
+parent = "about"
+identifier = "Interests"
+weight = 42
+
+# Social Media Links
+[[main]]
+pre = "github"
+url = "https://github.com/SalahThabet1"
+identifier = "github"
+weight = 100
 
 [[main]]
 pre = "instagram"
 url = "https://www.instagram.com/salah.thabet/"
-identifier = "1HugL1EKOn"
-weight = 102
-
-[[main]]
-pre = "github"
-url = "https://github.com/SalahThabet1"
-identifier = "9jogDN9rIu"
-weight = 100
+identifier = "instagram"
+weight = 101
 
 [[main]]
 pre = "youtube"
 url = "https://www.youtube.com/@salahdinthabet5684"
-identifier = "NUblm9xRxS"
-weight = 100
+identifier = "youtube"
+weight = 102
 
+# Footer Menu
 [[footer]]
 none = "none"

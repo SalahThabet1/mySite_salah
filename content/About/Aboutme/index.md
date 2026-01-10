@@ -5,6 +5,7 @@ date: 22 Jan 2022
 showreadingtime: false
 showwordcount: false
 showdate: false
+showpagination: false
 ---
 
 {{< typeit 
